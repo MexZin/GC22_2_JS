@@ -1,0 +1,8 @@
+div{
+    width: 300px;
+    height: 180px;
+    border: solid blue 2px;
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}

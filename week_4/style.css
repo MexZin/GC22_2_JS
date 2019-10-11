@@ -1,0 +1,16 @@
+div{
+    padding: 10px;
+    border: solid green 1px;
+    margin: 20px auto;
+    width: 450px;
+    height: 100px;
+}
+
+
+#result2 input, button{
+    font-size: 2em;
+}
+
+#result4{
+    font-size: 2em;
+}

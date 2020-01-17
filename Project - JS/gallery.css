@@ -1,0 +1,32 @@
+.tra{
+    width: 550px;
+}
+
+.chl{
+    width: 550px;
+}
+
+
+.reg{
+    color: white;
+    border: blue 0.5px solid;
+    border-radius: 10%;
+    padding: 7.5px;
+}
+
+.reg:link{
+    color: white;
+}
+
+.reg:visited {
+    color: white;
+  }
+
+.reg:active {
+    color: white;
+}
+
+.reg:hover {
+    color: white;
+    background-color: darkblue;
+}

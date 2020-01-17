@@ -1,0 +1,18 @@
+.container{
+    background: silver;
+    border: solid 1px;
+    min-height: 300px;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.abcChar{
+    width: 50px;
+    background: springgreen;
+}
+.in{
+    padding: 10px;
+    background: turquoise;
+    border: solid 1px navajowhite;
+}

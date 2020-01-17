@@ -1,0 +1,38 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: solid blue 3px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 75px;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: red;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+
+.d1{
+    height: 500px;
+    width: 500px;
+    border: solid 2px blue;
+    margin: auto;
+}
+
+.d2{
+    height: 70px;
+    width: 70px;
+    border: solid 2px yellowgreen;
+    background-color: aqua;
+}
+.div3{
+    height: 150px;
+    width: 300px;
+    border: solid 2px blue;
+    margin: auto;
+    padding-top: 7px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="register.css">
+    <title>Project</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">RealMadrid</a>
+      </div>
+      <div class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Club <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="team.html">Team</a></li>
+              <li><a href="trof.html">Trophies</a></li>
+              <li class="divider"></li>
+              <li><a href="about.html">About Real Madrid</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">English</a></li>
+              <li><a href="indexge.html">ქართული</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Log In</button>
+          <a href="register.html" class="reg">Registration</a>
+        </form> -->
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        
+        </div>
+
+        
+      </div>
+      <div class="col-md-6">
+        <div id="form">
+          <div id="ins">
+              Email: <input type="text" name="" class="input" onchange="emailCheck()"><br>
+              Username: <input type="text" name="" class="input" onchange="userNameCheck()"><br>
+              Password: <input type="password" name="" class="input" onchange="passwordCheck()"><div id="passType"></div><br>
+              Confirm: <input type="password" name="" class="input" onchange="confirmCheck()"><br>
+              Registration Date: <input type="date" name="" class="input" onchange="dateCheck()"><br>
+              Country: <input type="text" name="" class="input" onchange="countryCheck()"><br>
+              City: <input type="text" name="" class="input" onchange="cityCheck()"><br>
+              Phone: <input type="tel" name="" class="input" onchange="phoneCheck()"><br>
+          </div>
+          <input type="button" value="Register" id="button"><br>
+      </div>
+      </div>
+      <div class="col-md-2">
+        
+
+
+
+      </div>
+    </div>
+    <hr>
+    <footer>&copy; Real Madrid Fun Site</footer>
+  </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+<script src="register.js"></script>
+</html>
